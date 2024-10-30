@@ -1,0 +1,89 @@
+/* Existing styles */
+body {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.firstHeader {
+    margin: 20px 0;
+}
+
+.table {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.myself {
+    color: white;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.myHeader {
+    color: green;
+}
+
+.paragraph {
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.photo {
+    margin-top: 10px;
+}
+
+.small-screen {
+    display: block; 
+}
+
+.large-screen {
+    display: none; 
+}
+
+@media (min-width: 600px) {
+    .small-screen {
+        display: none; 
+    }
+    .large-screen {
+        display: block; 
+    }
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #04AA6D; 
+  color: white;
+}
+
+/* New styles for images */
+.small-screen-image {
+    display: block;
+}
+
+.large-screen-image {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .small-screen-image {
+        display: block;
+    }
+    .large-screen-image {
+        display: block;
+    }
+}
